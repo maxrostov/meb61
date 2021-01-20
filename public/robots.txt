@@ -1,0 +1,6 @@
+User-agent: *
+Host: mebel61.ru
+Disallow: /*?factory_id=
+Disallow: /search*
+Clean-param: c /mebel/*
+

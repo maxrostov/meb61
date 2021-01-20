@@ -1,0 +1,227 @@
+
+/*#products_table td{*/
+/*    padding-bottom: 10px;*/
+/*}*/
+/*#products_table tr {*/
+/*    border-bottom:5em solid green;*/
+/*}*/
+/*#products_table{*/
+/*    border-collapse:separate;border-spacing:5px;*/
+/*}*/
+/*https://stackoverflow.com/questions/351058/space-between-two-rows-in-a-table*/
+
+input::placeholder,textarea::placeholder {
+color: #646464 !important;
+}
+label{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.is_hidden{
+    text-decoration: line-through;
+}
+.my_label{
+    /*font-weight: initial!important;*/
+    display: inline!important;
+    margin: 0 5px!important;
+    font-size: 100%!important;
+}
+.my_label_search{
+    font-weight: 400!important;
+    color: grey!important;
+    border-bottom: 1px dashed grey;
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+
+.my_label_search input{
+    margin-right: 5px!important;
+}
+.inline_price_input{
+    padding: 3px!important;
+}
+.inline_input_success{
+    border: 1px solid green!important;
+}
+.inline_value{
+    padding: 3px!important;
+    /*font-size: 90%!important;*/
+    padding: 2px!important;
+    margin-bottom: 3px!important;
+}
+#products_table tr:hover{
+    background-color: rgba(204, 204, 204, 0.21) !important;
+
+}
+
+.products_table_family{
+    background-color: rgba(226, 226, 226, 0.21);
+
+}
+
+#products_table tr td:last-child{
+    /*background-color: #ccc!important;*/
+    /*position: relative;*/
+}
+#products_table input[type="checkbox"]{
+    vertical-align: baseline!important;
+    /*position: absolute;*/
+    /*right: -20px;*/
+}
+input:checked + span{
+    font-weight: bold;
+    color: black;
+    background-color: rgba(147, 189, 255, 0.12);
+}
+.products_category_label{
+    font-size: 80%;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background-color: #c8c8c870;
+    cursor: pointer;
+
+}
+.products_category_label__nocat{
+    font-size: 80%;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: white;
+    background-color: #555555;
+
+}
+.products_table_family{
+    border-left: 2px solid grey;
+    /*background-color: #f7f7f7;*/
+}
+.collection_main_item{
+    font-weight: bold;
+}
+.children{
+    display: none;
+}
+.js_click_toggle{
+    cursor: pointer;
+}
+
+.family_border1{
+    border-color: indianred;    border-width: 2px;
+}
+.family_border2{
+    border-color: #a1cd86; border-width: 2px;
+}
+.family_border3{
+    border-color: #70cda1; border-width: 2px;
+}
+.family_border4{
+    border-color: #679dcd; border-width: 2px;
+}
+.family_border5{
+    border-color: #9a7acd; border-width: 2px;
+    /*border-left-style:dotted;*/
+}
+.family_border6{
+    border-color: #abcd66; border-width:2px;
+    /*border-left-style:dotted;*/
+}
+.family_border7{
+    border-color: #23cd4e; border-width: 2px;
+
+}
+.family_border8{
+    border-color: #293e3c; border-width: 2px;
+}
+.family_border9{
+    border-color: #4d1012; border-width: 2px;
+}
+.family_border0{
+    border-color: #cd813a; border-width: 2px;
+}
+
+.products_listing_img{
+    width: 100px;
+    transition: all .4s;
+    cursor: zoom-in;
+}
+
+.products_listing_img_popup{
+    transform: scale(6);
+    z-index: 111;
+    cursor: zoom-out;
+    border: 2px solid #e4e4e4;
+
+}
+
+.ui.table > thead > tr > th{
+    font-weight: 300!important;
+}
+
+
+/*product item page*/
+
+.product_photo{
+
+    position: relative;
+}
+
+.product_photo img{
+    /*float: left;*/
+    /*width: 170px;*/
+    height: 120px;
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid grey;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.product_photo_delete img{
+    opacity: .5;
+    /*outline: solid 1px #ec000b;*/
+}
+.product_photo_trash{
+    position: absolute;
+    bottom: -6px;
+    right: 0px;
+    cursor: pointer;
+}
+.product_photo_trash_active{
+    color: #ff5c6c !important;
+}
+.product_photo_enlarge img{
+    /*width: 700px!important;*/
+    transform: scale(3);
+    z-index: 111;
+    /*height: auto;*/
+}
+.product_photo_enlarge:first-child img{
+    transform: scale(3) translate(30%);
+    z-index: 111;
+}
+
+.product_photo_delete::after{
+    position: absolute;
+    content: 'удалено';
+    bottom: -10px;
+    right: 21px;
+    color: #cc7171;
+}
+
+
+.vue_photos_ghost{
+    cursor: grab;
+    outline: 3px solid #234d24;
+}
+
+.abbr{
+    border-bottom: 1px dashed grey;
+    cursor: help;
+}
+label.abbr{
+  display: inline-block!important;
+}
+
+input:required:invalid, select:required:invalid {
+    border-left-color: #ff3b08 !important;
+}

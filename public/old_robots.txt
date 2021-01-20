@@ -1,0 +1,5 @@
+User-agent: *
+Host: https://mebel61.ru
+Sitemap: https://mebel61.ru/sitemap.txt
+Disallow: /*?factory_id=
+Disallow: /search*
